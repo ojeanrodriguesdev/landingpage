@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function CTASectionTwo() {
   return (
-    <div className="relative py-24 sm:py-32 overflow-hidden border-t-2">
-      <div className="absolute inset-0 animate-eclipse-background-hero bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 opacity-40 scale-150"></div>
+    <div className="relative py- sm:py- overflow-hidden border-t-2">
+      <div className="absolute inset-0 animate-eclipse-background-hero"></div>
       <div className="relative z-10 mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
@@ -38,16 +38,16 @@ export default function CTASectionTwo() {
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="#"
-                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="rounded-md bg-blue-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-900 duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Experimente agora
+                Experimente agora!
               </a>
             </div>
           </div>
-          <div className="relative mt-16 h-80 lg:mt-8">
+          <div className="relative mt-16 h-full lg:mt-8">
             <Image
-              alt="App screenshot"
-              src="/path/to/your-image.jpg"
+              alt="image"
+              src="/images/CTASectionTwo/image.png"
               width={1824}
               height={1080}
               priority={true}
