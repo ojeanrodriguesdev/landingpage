@@ -22,27 +22,29 @@ export default function Faq() {
   ]
 
   return (
-    <div className="relative space-y-4 p-6">
+    <div className="relative space-y-4 p-6 md:px-40 xl:px-60 z-10">
       <div className="absolute inset-0 animate-eclipse-background-hero"></div>
-      <div className="flex flex-col justify-center items-center pt-5">
-        <h1 className="font-bold text-gray-900 text-[24px] leading-relaxed">FAQ</h1>
-        <span className="font-semibold text-gray-900 text-[20px] leading-relaxed">
-          Perguntas Frequentes
+      <div className="flex flex-col justify-center items-center pt-5 z-10">
+        <h1 className="font-bold drop-shadow-lg text-gray-900 text-[24px] leading-relaxed z-10">
+          FAQ
+        </h1>
+        <span className="font-semibold drop-shadow-lg text-gray-900 text-[20px] leading-relaxed z-10">
+          Perguntas Frequentes:
         </span>
       </div>
 
       {faqs.map((faq, index) => (
         <details
           key={index}
-          className="group rounded-lg bg-gray-300 p-6 [&_summary::-webkit-details-marker]:hidden"
+          className="group shadow-xl border-2 border-slate-400/20 rounded-lg bg-gray-300 p-6 [&_summary::-webkit-details-marker]:hidden z-10"
         >
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-black font-semibold">
-            <h2 className="font-semibold">{faq.question}</h2>
+          <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-black font-semibold z-10">
+            <h2 className="font-semibold z-10">{faq.question}</h2>
 
-            <span className="relative size-5 shrink-0">
+            <span className="relative size-5 shrink-0 z-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
+                className="z-10 absolute inset-0 size-5 opacity-100 group-open:opacity-0"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -57,7 +59,7 @@ export default function Faq() {
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
+                className="absolute inset-0 size-5 opacity-0 group-open:opacity-100 z-10"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -72,7 +74,7 @@ export default function Faq() {
             </span>
           </summary>
 
-          <p className="mt-4 mb-4 leading-relaxed font-normal text-gray-900">{faq.answer}</p>
+          <p className="mt-4 mb-4 leading-relaxed font-normal text-gray-900 z-10">{faq.answer}</p>
         </details>
       ))}
     </div>
