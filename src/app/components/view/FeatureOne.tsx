@@ -30,14 +30,11 @@ const features = [
 export default function FeatureOne() {
   return (
     <div className="relative py-24 sm:py-32 overflow-hidden">
-      {/* Background animado */}
-      <div className="absolute inset-0 animate-eclipse-background-hero bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 opacity-40 scale-150"></div>
-      
-      {/* Conteúdo da FeatureOne */}
+      <div className="absolute inset-0 animate-eclipse-background-hero "></div>
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Funcionalidades que Elevam seu<br/> Negócio a Outro Nível
+            Funcionalidades que <span className="text-blue-700">Elevam</span> seu<br/> <span className="text-blue-700">Negócio</span> a Outro Nível!
           </h1>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -45,7 +42,7 @@ export default function FeatureOne() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-bold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-800 ">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-700 ">
                     <feature.icon aria-hidden="true" className="h-6 w-6 text-white" />
                   </div>
                   {feature.name}
