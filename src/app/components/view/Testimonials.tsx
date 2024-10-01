@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: 'Mia Brown',
     role: 'Marketer',
-    imageUrl: '/',
+    imageUrl: '/images/Footer/logo.png',
     feedback:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quam. Odio voluptatem officiis eos illo! Pariatur, totam alias.',
   },
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: 'John Doe',
     role: 'Developer',
-    imageUrl: '/',
+    imageUrl: '/images/Footer/logo.png',
     feedback:
       'Ea voluptates fugiat corrupti laudantium dolores reiciendis pariatur esse quod nihil quia cupiditate debitis quisquam nemo.',
   },
@@ -88,7 +88,7 @@ export default function Testimonials() {
     <section className="bg-white dark:bg-black">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-          Depoimentos de clientes
+          Depoimentos de clientes:
         </h1>
 
         <div className="flex justify-center mx-auto mt-6">
