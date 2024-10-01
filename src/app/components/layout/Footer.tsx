@@ -2,12 +2,9 @@ import Image from 'next/image'
 
 export default function Footer() {
   const links = [
-    { href: '#', label: 'Overview' },
-    { href: '#', label: 'Features' },
-    { href: '#', label: 'Pricing' },
-    { href: '#', label: 'Careers' },
-    { href: '#', label: 'Help' },
-    { href: '#', label: 'Privacy' },
+    { href: '#', label: 'Sobre nós' },
+    { href: '#', label: 'Serviços' },
+    { href: '#', label: 'Contato' },
   ]
 
   return (
@@ -16,7 +13,7 @@ export default function Footer() {
         <a href="#">
           <Image
             alt="App screenshot"
-            src="/path/to/your-image.jpg"
+            src="/images/Footer/logo.png"
             width={1824}
             height={1080}
             priority={true}
