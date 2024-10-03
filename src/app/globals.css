@@ -44,21 +44,5 @@
     animation: eclipse-background 8500ms ease infinite;
   }
 
-  @keyframes eclipse-background {
-    100% {
-      background-position: 0% 85%;
-    }
-    75% {
-      background-position: 85% 85%;
-    }
-    50% {
-      background-position: 85% 0%;
-    }
-    25% {
-      background-position: 0% 0%;
-    }
-    0% {
-      background-position: 0% 85%;
-    }
-  }
+  
 }
