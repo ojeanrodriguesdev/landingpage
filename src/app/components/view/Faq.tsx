@@ -23,7 +23,7 @@ export default function Faq() {
 
   return (
     <div className="relative space-y-4 p-6 md:px-40 xl:px-60 z-10">
-      <div className="absolute inset-0 animate-eclipse-background-hero"></div>
+      <div className="absolute inset-0 animate-eclipse-background-faq"></div>
       <div className="flex flex-col justify-center items-center pt-5 z-10">
         <h1 className="font-bold drop-shadow-lg text-gray-900 text-[24px] leading-relaxed z-10">
           FAQ

@@ -21,7 +21,7 @@ export default function HeroSection() {
               expectativas.
             </p>
             <div className="flex items-center justify-center">
-              <div className="bg-black/10 w-[300px] md:w-[340px] lg:w-[400px] rounded-t-[40px] shadow-xl py-6 mt-10 flex flex-col items-center justify-center">
+              <div className="bg-white w-[300px] md:w-[340px] lg:w-[400px] rounded-[40px] shadow-xl py-6 mt-10 flex flex-col items-center justify-center">
                 <span className="mb-6 text-[14px] lg:text-[18px] font-semibold leading-7 ">
                   Transforme seu futuro digital hoje.
                 </span>
