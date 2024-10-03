@@ -15,11 +15,6 @@ export default function HeroSection() {
             <h2 className="mt-6 text-[18px] lg:text-[28px] font-semibold leading-8 text-gray-700">
               Simplifique, automatize, expanda seus resultados com nossa solução digital inovadora.
             </h2>
-            <p className="mt-6 text-[16px] lg:text-[22px] leading-8 text-gray-700">
-              Ajudamos empresas de qualquer tamanho e setor a resolver seus maiores desafios
-              digitais com uma única plataforma integrada. A inovação que vai além das suas
-              expectativas.
-            </p>
             <div className="flex items-center justify-center">
               <div className="bg-white w-[300px] md:w-[340px] lg:w-[400px] rounded-[40px] shadow-xl py-6 mt-10 flex flex-col items-center justify-center">
                 <span className="mb-6 text-[14px] lg:text-[18px] font-semibold leading-7 ">
