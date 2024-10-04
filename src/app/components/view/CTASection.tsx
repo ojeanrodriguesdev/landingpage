@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function CTASection() {
   return (
-    <section className="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
-      <div className="overflow-hidden bg-white dark:bg-black lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
+    <section className="bg-black lg:py-12 lg:flex lg:justify-center">
+      <div className="overflow-hidden bg-white lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
         <div className="lg:w-1/2">
           <Image
             src="/images/CTASection/image.png"
@@ -18,11 +18,11 @@ export default function CTASection() {
         </div>
 
         <div className="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
-          <h2 className="text-[2xl] font-bold text-gray-800 dark:text-white md:text-[24px]">
+          <h2 className="text-[2xl] font-bold text-gray-800 md:text-[24px]">
             Está pronto para sua <span className="text-blue-600">transformação</span> digital?
           </h2>
 
-          <p className="mt-4 text-gray-500 dark:text-gray-300 font-semibold">
+          <p className="mt-4 text-black font-semibold">
             Nossa solução abrange todos os nichos, desde e-commerce até consultoria, oferecendo
             automação, performance e crescimento instantâneo.
           </p>
